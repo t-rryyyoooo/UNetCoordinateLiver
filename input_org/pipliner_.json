@@ -1,8 +1,8 @@
 {
     "run_training" : {
-        "fold1" : false,
-        "fold2" : false,
-        "fold3" : false
+        "fold1" : true,
+        "fold2" : true,
+        "fold3" : true
     },
     "run_segmentation" : {
         "fold1" : true,
@@ -55,11 +55,11 @@
   "label_patch_size" : "28-44-44",
   "overlap" : 1,
   "image_name" : "imaging_resampled.nii.gz",
-  "liver_name" : "liver_resampled.mha",
+  "label_name" : "liver_resampled.mha",
   "mask_name" : "No",
   "save_name" : "label.mha",
 
-  "csv_savedir" : "$HOME/tanimoto/data/results/Abdomen/no_pad/coordinate/116-132-132-4/liver/mask", 
+  "csv_savedir" : "$HOME/tanimoto/data/results/Abdomen/no_pad/coordinate/116-132-132-4/resampled/mask", 
   "class_label" : "backGound spleen  rightKidney  leftKidney gallbladder esophagus liver stomach aorta inferiorVenaCava portalVeinAndSplenicVein pancreas rightAdrenalGland leftAdrenalGland",
   "true_name" : "segmentation_resampled.nii.gz",
   "predict_name" : "label.mha" 
